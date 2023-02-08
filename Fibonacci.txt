@@ -1,0 +1,24 @@
+public class FibonacciSeries {
+
+	public static void main(String[] args) {
+	
+		int num = 11;
+		int res, firstNum = 0, secondNum = 1;
+		
+		System.out.println("Fibonacci Series");
+		
+		for (int i = 0; i < num; i++) {
+			
+			res = firstNum + secondNum;
+			
+			firstNum = secondNum;
+			
+			secondNum = res;
+			
+			System.out.println(res);
+			
+		}
+
+	}
+
+}
